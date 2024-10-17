@@ -1,5 +1,43 @@
 h1, h2, h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: red;
+    background-color: beige;
+    color: midnightblue;
+    text-align: center
+}
+.recipe-card {
+box-sizing: border-box;
+height: 400px;
+width: 300px;
+margin: 16px auto;
+background-color: blanchedalmond;
+}
+.list-container {
+    border: 10px ridge;
+    padding: 16px 8px;
+    margin: 5px 20px;
+}
+.h1 {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.one-button {
+    margin: 10px auto;
+    padding: 10px 5px;
+    border: 5px solid blueviolet;
+}
+button {
     text-align: center;
+    display: block;
+    padding: 8px;
+}
+.two-button {
+    margin: 10px auto;
+    padding: 10px 5px;
+    border: 5px solid black;
+}
+.three-button {
+    margin: 10px auto;
+    padding: 10px 5px;
+    border: 5px solid peru;
 }
